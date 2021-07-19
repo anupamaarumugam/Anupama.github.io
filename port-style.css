@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 5px;
+    background-color:black;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+}
+.navigation{
+    padding: 10px 10px;
+    display: flex;
+    justify-content:space-between; 
+    
+}   
+.navigation ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.navigation ul li a{
+    color:white;    
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.msg{
+    padding-right: 30px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content img{
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+}
+.content{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text h1{
+    font-size: 60px;
+    color:white;
+}
+.text p{
+    font-size: 30px;
+    color: white;
+}
+.btn{
+    font-size: 30px;
+    text-decoration: none;
+    background-color:blue;
+    border-radius: 15px;
+    color: black;
+    top: 20px;
+}
+a:hover{
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+} 
